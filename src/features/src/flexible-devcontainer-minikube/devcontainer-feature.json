@@ -1,0 +1,36 @@
+{
+  "id": "flexible-devcontainer-minikube",
+  "version": "1.2.0",
+  "name": "Minikube",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "v1",
+      "description": "Select or enter a Minikube major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a Minikube version."
+    },
+    "add_no_proxy": {
+      "type": "string",
+      "default": "10.96.0.0/12,192.168.49.0/24",
+      "description": "enter no_proxy additional value."
+    },
+    "docker_bridge_nw_gw_ip": {
+      "type": "string",
+      "default": "172.17.0.1",
+      "description": "enter a docker network bridge gateway ip."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-kubernetes-tools.vscode-kubernetes-tools"
+      ]
+    }
+  }
+}

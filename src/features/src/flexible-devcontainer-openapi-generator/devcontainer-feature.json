@@ -1,0 +1,22 @@
+{
+  "id": "flexible-devcontainer-openapi-generator",
+  "version": "1.2.0",
+  "name": "OpenAPI-Generator(Nodejs用)",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "2",
+      "description": "Select or enter a OpenAPI Generator major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a OpenAPI Generator version."
+    }
+  },
+  "installsAfter": [
+    "./features/flexible-devcontainer-nodejs"
+  ]
+}

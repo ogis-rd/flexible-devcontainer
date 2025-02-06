@@ -1,0 +1,32 @@
+name: "Release dev container features"
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+    paths:
+      - 'src/features/**'
+jobs:
+  release-feature:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      # 特定のファイルを特定のディレクトリにコピー
+      - name: "Copy files to the build directory"
+        run: |
+          # 必要なファイルピー
+          for dir in ./src/features/src/*; do
+            if [ -d "$dir" ]; then
+              cp -f ./src/features/common/scripts/common.sh "$dir"
+            fi
+          done
+      - name: "push features to ghcr"
+        uses: devcontainers/action@v1
+        with:
+          base-path-to-features: "./src/features/src"
+          publish-features: "true"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

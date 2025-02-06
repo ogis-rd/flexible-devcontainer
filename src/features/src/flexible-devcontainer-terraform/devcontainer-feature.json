@@ -1,0 +1,26 @@
+{
+  "id": "flexible-devcontainer-terraform",
+  "version": "1.2.0",
+  "name": "Terraform",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "1",
+      "description": "Select or enter a Terraform CLI major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a Terraform CLI version."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform"
+      ]
+    }
+  }
+}

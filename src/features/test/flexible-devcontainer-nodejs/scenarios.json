@@ -1,0 +1,27 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-nodejs": {}
+        }
+    },
+    "major_version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-nodejs": {
+                "major_version": "v23"
+            }
+        }
+    },
+    "version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-nodejs": {
+                "version": "v22.10.0",
+                "nvm_version": "0.39.0",
+                "npm_version": "10.9.0",
+                "corepack_version": "0.29.2"
+            }
+        }
+    }
+}

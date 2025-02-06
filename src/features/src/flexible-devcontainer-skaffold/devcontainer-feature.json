@@ -1,0 +1,19 @@
+{
+  "id": "flexible-devcontainer-skaffold",
+  "version": "1.2.0",
+  "name": "Skaffold",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "v2",
+      "description": "Select or enter a Skaffold major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a Skaffold version."
+    }
+  }
+}

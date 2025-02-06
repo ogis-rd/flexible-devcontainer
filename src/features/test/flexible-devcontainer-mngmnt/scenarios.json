@@ -1,0 +1,16 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-mngmnt": {}
+        }
+    },
+    "custom": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-mngmnt": {
+                "add_no_proxy": "172.17.1.0/16"
+            }
+        }
+    }
+}

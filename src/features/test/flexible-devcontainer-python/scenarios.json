@@ -1,0 +1,16 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-python": {}
+        }
+    },
+    "version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-python": {
+                "version": "3.12.4"
+            }
+        }
+    }
+}

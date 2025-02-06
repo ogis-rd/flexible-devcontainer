@@ -1,0 +1,17 @@
+{
+  "id": "flexible-devcontainer-aws-cli",
+  "version": "1.2.0",
+  "name": "AWS CLI",
+  "options": {
+    "aws_config_file": {
+      "type": "string",
+      "default": "/home/＄｛USER｝/workspace/.aws/config",
+      "description": "enter an AWS CLI config file."
+    },
+    "aws_shared_credentials_file": {
+      "type": "string",
+      "default": "/home/＄｛USER｝/workspace/.aws/credentials",
+      "description": "enter an AWS CLI credentials file."
+    }
+  }
+}

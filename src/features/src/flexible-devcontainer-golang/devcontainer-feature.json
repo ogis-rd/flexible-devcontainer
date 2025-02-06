@@ -1,0 +1,26 @@
+{
+  "id": "flexible-devcontainer-golang",
+  "version": "1.2.0",
+  "name": "Golang",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "1",
+      "description": "Select or enter a Golang major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a Golang version."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  }
+}

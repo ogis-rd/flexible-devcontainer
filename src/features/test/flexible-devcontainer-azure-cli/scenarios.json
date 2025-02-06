@@ -1,0 +1,17 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-azure-cli": {}
+        }
+    },
+    "custom_path": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-azure-cli": {
+                "azure_config_dir": "/home/custome/workspace/.azure",
+                "az_cli_cacert_file": "/opt/az/cacert.pem"
+            }
+        }
+    }
+}

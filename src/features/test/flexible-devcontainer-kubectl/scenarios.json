@@ -1,0 +1,32 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-kubectl": {}
+        }
+    },
+    "major_minor_version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-kubectl": {
+                "major_minor_version": "1.30"
+            }
+        }
+    },
+    "version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-kubectl": {
+                "version": "1.29.2-1.1"
+            }
+        }
+    },
+    "custom_path": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-kubectl": {
+                "kubeconfig": "/home/custom/workspace/.kube/config"
+            }
+        }
+    }
+}

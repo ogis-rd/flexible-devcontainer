@@ -1,0 +1,21 @@
+{
+  "id": "flexible-devcontainer-maven",
+  "version": "1.2.0",
+  "name": "flexible-devcontainer-maven",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [],
+      "default": "3.9.9",
+      "description": "enter a Maven version."
+    },
+    "maven_settings_dir": {
+      "type": "string",
+      "default": "/home/${USER}/workspace/.m2",
+      "description": "enter an Maven settings file directory."
+    }
+  },
+  "installsAfter": [
+    "./features/flexible-devcontainer-java"
+  ]
+}

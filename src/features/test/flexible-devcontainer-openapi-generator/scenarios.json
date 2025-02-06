@@ -1,0 +1,27 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-nodejs": {},
+            "flexible-devcontainer-openapi-generator": {}
+        }
+    },
+    "major_version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-nodejs": {},
+            "flexible-devcontainer-openapi-generator": {
+                "major_version": "2"
+            }
+        }
+    },
+    "version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-nodejs": {},
+            "flexible-devcontainer-openapi-generator": {
+                "version": "2.19.0"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-helm": {}
+        }
+    },
+    "major_version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-helm": {
+                "major_version": "3"
+            }
+        }
+    },
+    "version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-helm": {
+                "version": "3.16.2-1"
+            }
+        }
+    }
+}

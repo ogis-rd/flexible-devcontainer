@@ -1,0 +1,19 @@
+{
+  "id": "flexible-devcontainer-helm",
+  "version": "1.2.0",
+  "name": "Helm",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "3",
+      "description": "Select or enter a Helm major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a Helm version."
+    }
+  }
+}

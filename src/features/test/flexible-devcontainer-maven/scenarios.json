@@ -1,0 +1,27 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-java": {},
+            "flexible-devcontainer-maven": {}
+        }
+    },
+    "version": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-java": {},
+            "flexible-devcontainer-maven": {
+                "version": "3.8.8"
+            }
+        }
+    },
+    "custom_path": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-java": {},
+            "flexible-devcontainer-maven": {
+                "maven_settings_dir": "/home/custom/workspace/.m2"
+            }
+        }
+    }
+}

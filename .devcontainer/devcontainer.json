@@ -1,0 +1,167 @@
+{
+    "name": "dev container ",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "USERNAME": "${localEnv:USER}"
+        }
+    },
+    "features": {
+        // << 管理用のfeature >>。コメントアウトしないでください!!
+        "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-mngmnt:latest":{
+            // no_proxyに追加するIPを定義する。default "172.17.0.0/16"
+            // "add_no_proxy": "172.17.0.0/16"
+        },
+        // 各featureをインストールするには、以下の各定義をコメントインしてください。
+        // - バージョンを指定しない場合、デフォルトで定義されているメジャーバージョンに一致する最新のパッケージがインストールされます。
+        // - インストール対象のメジャーバージョン、または特定のバージョンのどちらかを指定してインストールすることができます。
+        // - インストールはaptまたはhttpでパッケージをダウンロードしてインストールします。指定されたバージョンがレポジトリ/urlに存在しない場合は最新バージョンをインストールします。
+        // << Java >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-java:latest": {
+        //     // メジャーバージョンを指定していインストールする。 default "21"
+        //     // "major_version": "21"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "11.0.21.0.0+9"
+        // },
+        // << Maven >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-maven:latest": {
+        //     // バージョンを指定してインストールする。 default "3.9.9"
+        //     // "version": "3.9.9", 
+        //     // default maven_settings_dir /home/${localEnv:USER}/workspace/.m2
+        //     // "maven_settings_dir": "/home/${localEnv:USER}/workspace/.m2"
+        // },
+        // << Minikube >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-minikube:latest": {
+        //     // メジャーバージョンを指定していインストールする. default "v1"
+        //     // "major_version": "v1"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "v1.33.1"
+        //     // no_proxyに追加するIPを定義する。default "10.96.0.0/12,192.168.49.0/24"
+        //     // "add_no_proxy": "10.96.0.0/12,192.168.49.0/24"
+        //     // Dockerのbridge networkのgateway IPを定義する。default "172.17.0.1"
+        //     // "docker_bridge_nw_gw_ip": "172.17.0.1"
+        // },
+        // << Kubectl >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-kubectl:latest": {
+        //     // メジャー・マイナーバージョンを指定していインストールする. default "1.29"
+        //     // "major_minor_version": "1.31"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "1.29.2-1.1"
+        //     // defaut kubeconfig /home/${USER}/workspace/.kube/config
+        //     // "kubeconfig": "/abc"
+        // },
+        // << Helm >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-helm:latest": {
+        //     // メジャーバージョンを指定していインストールする. default "3"
+        //     // "major_version": "3"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "3.15.4"
+        // },
+        // << Python >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-python:latest": {
+        //     // ソースコードをダウンロードしてビルドしてインストールしているため、Pythonのインストールを行うと環境構築時間がプラス5分程度増加します。
+        //     // 特定バージョンを指定してインストールする。default "3.12.5"
+        //     // "version": "3.12.5"
+        // },
+        // << azure-cli >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-azure-cli:latest": {
+        //     // defaut azure_config_dir /home/${USER}/workspace/.azure
+        //     // "azure_config_dir": "/abc"
+        //     // defaut az_cli_cacert_file /opt/az/lib/python3.12/site-packages/certifi/cacert.pem
+        //     // "azure_config_dir": "/abc/azcli/cacert.pem"
+        // },
+        // << Terraform >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-terraform:latest": {
+        //     // メジャーバージョンを指定していインストールする. default "1"
+        //     // "major_version": "1"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "1.9.5"
+        // },
+        // << ArgoCD CLI >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-argocd-cli:latest": {
+        //     // メジャーバージョンを指定していインストールする. default "v2"
+        //     // "major_version": "v2"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "v2.9.1"
+        // },
+        // << Skaffold >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-skaffold:latest": {
+        //     // メジャーバージョンを指定していインストールする. default "v2"
+        //     // "major_version": "v2"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "v2.13.2"
+        // },
+        // << aws-cli >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-aws-cli:latest": {
+        //     // defaut aws_config_file /home/${USER}/workspace/.aws/config
+        //     // "aws_config_file": "/abc",
+        //     // defaut aws_shared_credentials_file /home/${USER}/workspace/.aws/credentials
+        //     // "aws_shared_credentials_file": "/abc"
+        // },
+        // <<nodejs>>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-nodejs:latest": {
+        //     // [前提]
+        //     // yarnなどcorepackで管理できるモジュールは、corepack+package.jsonで管理する
+        //     // ---------------------------------------------------------------------
+        //     // Node.jsのメジャーバージョンを指定してインストールする。 default "22"
+        //     // "major_version": "20"
+        //     // Node.jsの特定バージョンを指定してインストールする。
+        //     // "version": "v20.14.1"
+        //     // corepackのバージョンを指定する。defaultは最新。
+        //     // "corepack_version": "0.29.3",
+        //     // npm(global)のバージョンを指定する。defaultは最新。
+        //     // "npm_version": "10.8.2",
+        //     // nvmのバージョンを指定する。default "0.40.0"。
+        //     // "nvm_version": "0.40.0"
+        // },
+        // <<nodejs版openapi-generator>>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-openapi-generator:latest": {
+        //     // Nodejs版のopenapi-generatorをグローバルにインストールする。
+        //     // メジャーバージョンを指定してインストールする。 default "2"
+        //     // "major_version": "2"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "2.19.0"
+        // },
+        // << Golang >>
+        // "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer-golang:latest": {
+        //     // メジャーバージョンを指定していインストールする. default "1"
+        //     // "major_version": "1"
+        //     // 特定バージョンを指定してインストールする。
+        //     // "version": "go1.23.0"
+        // }
+    },
+    "containerEnv": {
+        "DOCKER_CONFIG": "/home/${localEnv:USER}/workspace/.docker",
+        // minikubeを利用した場合に環境変数DOCKER_HOSTは172.17.0.1に上書きされます。
+        "DOCKER_HOST": "unix:///home/${localEnv:USER}/.docker/docker.sock"
+    },
+    "remoteUser": "${localEnv:USER}",
+    "customizations": {
+        "vscode": {
+            // リモート先のVS Codeにインストールする拡張機能
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ],
+            // リモート先のVS Codeの設定
+            "settings": {
+                // .docker/config.jsonにcredsStoreを出力されないようにする。出力された状態だとコンテナレジストリにアクセスするとにエラーになる。
+                "dev.containers.dockerCredentialHelper": false,
+                // VSCodeのGit認証機能を利用するため、ホストOSからのgit.credentialHelperの引継ぎを無効にする。
+                // ホストOSにgit.credentialHelperの定義が無い場合、この設定を無効にしないとGit利用時にエラーメッセージが表示される。
+                // git.credentialHelperを引継ぎたい場合は以下の定義を削除する。
+                "dev.containers.gitCredentialHelperConfigLocation": "none"
+            }
+        }
+    },
+    "privileged": true,
+    "overrideCommand": false,
+    "workspaceFolder": "/home/${localEnv:USER}/workspace",
+    "workspaceMount": "source=/home/${localEnv:USER}/workspace,target=/home/${localEnv:USER}/workspace,type=bind",
+    "runArgs": [
+        "--add-host=host.docker.internal:host-gateway"
+    ],
+    "mounts": [
+        // 一般的には/var/run/docker.sockにマウントするが、systemdを起動すると削除されてしまうため。/home/${localEnv:USER}/.dockerにマウントする。
+        "source=/var/run/docker.sock,target=/home/${localEnv:USER}/.docker/docker.sock,type=bind"
+    ]
+}

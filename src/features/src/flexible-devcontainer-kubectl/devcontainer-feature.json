@@ -1,0 +1,32 @@
+{
+  "id": "flexible-devcontainer-kubectl",
+  "version": "1.2.0",
+  "name": "Kubectl",
+  "options": {
+    "major_minor_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "1.31",
+      "description": "Select or enter a Kubectl major and minor version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a Kubectl version."
+    },
+    "kubeconfig": {
+      "type": "string",
+      "proposals": [],
+      "default": "/home/＄｛USER｝/workspace/.kube/config",
+      "description": "Select or enter kubeconfig path."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-kubernetes-tools.vscode-kubernetes-tools"
+      ]
+    }
+  }
+}

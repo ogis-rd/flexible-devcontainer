@@ -1,0 +1,17 @@
+{
+  "id": "flexible-devcontainer-azure-cli",
+  "version": "1.2.0",
+  "name": "Azure CLI",
+  "options": {
+    "azure_config_dir": {
+      "type": "string",
+      "default": "/home/＄｛USER｝/workspace/.azure",
+      "description": "enter an Azure CLI distribution."
+    },
+    "az_cli_cacert_file": {
+      "type": "string",
+      "default": "",
+      "description": "enter an Azure CLI ca-cert file."
+    }
+  }
+}

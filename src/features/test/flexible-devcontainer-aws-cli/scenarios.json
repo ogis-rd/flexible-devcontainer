@@ -1,0 +1,17 @@
+{
+    "default": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-aws-cli": {}
+        }
+    },
+    "custom_path": {
+        "image": "ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test",
+        "features": {
+            "flexible-devcontainer-aws-cli": {
+                "aws_config_file": "/home/custom/workspace/.aws/config",
+                "aws_shared_credentials_file": "/home/custom/workspace/.aws/credentials"
+            }
+        }
+    }
+}

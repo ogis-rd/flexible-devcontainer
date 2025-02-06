@@ -1,0 +1,37 @@
+{
+  "id": "flexible-devcontainer-nodejs",
+  "version": "1.2.0",
+  "name": "Node.js",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "22",
+      "description": "Select or enter a Node.js major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a Node.js version."
+    },
+    "nvm_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "0.40.0",
+      "description": "Select or enter a nvm version."
+    },
+    "npm_version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a npm version."
+    },
+    "corepack_version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter a corepack version."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "flexible-devcontainer-argocd-cli",
+  "version": "1.2.0",
+  "name": "ArgoCD CLI",
+  "options": {
+    "major_version": {
+      "type": "string",
+      "proposals": [],
+      "default": "v2",
+      "description": "Select or enter an ArgoCD CLI major version."
+    },
+    "version": {
+      "type": "string",
+      "default": "",
+      "proposals": [],
+      "description": "enter an ArgoCD CLI version."
+    }
+  }
+}
