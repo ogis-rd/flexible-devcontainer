@@ -21,6 +21,7 @@ jobs:
           for dir in ./src/features/src/*; do
             if [ -d "$dir" ]; then
               cp -f ./src/features/common/scripts/common.sh "$dir"
+              cp -f ./src/features/common/LICENSE "$dir"
             fi
           done
       - name: "push features to ghcr"

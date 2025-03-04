@@ -1,0 +1,312 @@
+NOTICES AND INFORMATION
+Do Not Translate or Localize
+
+This software incorporates material from third parties.
+Microsoft makes certain open source code available at https://3rdpartysource.microsoft.com,
+or you may send a check or money order for US $5.00, including the product name,
+the open source component name, platform, and version number, to:
+
+Source Code Compliance Team
+Microsoft Corporation
+One Microsoft Way
+Redmond, WA 98052
+USA
+
+Notwithstanding any other terms, you may reverse engineer this software to the extent
+required to debug changes to any libraries licensed under the GNU Lesser General Public License.
+
+---------------------------------------------------------
+
+ubuntu
+https://hub.docker.com/_/ubuntu
+
+License
+View license information<https://www.ubuntu.com/legal/terms-and-policies> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's ubuntu/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/ubuntu>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+curl
+https://hub.docker.com/_/curl
+
+License
+View license information<https://github.com/curl/curl/blob/master/LICENSE> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's curl/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/curl>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+dig (dnsutils)
+https://hub.docker.com/_/dnsutils
+
+License
+View license information<https://opensource.org/licenses/BSD-3-Clause> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's dnsutils/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/dnsutils>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+git
+https://hub.docker.com/_/git
+
+License
+View license information<https://git-scm.com/about/free-software> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's git/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/git>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+jq
+https://hub.docker.com/_/jq
+
+License
+View license information<https://github.com/stedolan/jq/blob/master/COPYING> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's jq/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/jq>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+lsof
+https://hub.docker.com/_/lsof
+
+License
+View license information<https://opensource.org/licenses/MIT> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's lsof/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/lsof>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+netstat (net-tools)
+https://hub.docker.com/_/net-tools
+
+License
+View license information<https://opensource.org/licenses/GPL-2.0> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's net-tools/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/net-tools>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+ping (iputils-ping)
+https://hub.docker.com/_/iputils
+
+License
+View license information<https://github.com/iputils/iputils/blob/master/LICENSE> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's iputils/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/iputils>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+ssh
+https://hub.docker.com/_/ssh
+
+License
+View license information<https://opensource.org/licenses/MIT> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's ssh/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/ssh>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+sudo
+https://hub.docker.com/_/sudo
+
+License
+View license information<https://www.sudo.ws/> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's sudo/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/sudo>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+systemd
+https://hub.docker.com/_/systemd
+
+License
+View license information<https://github.com/systemd/systemd/blob/main/LICENSE> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's systemd/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/systemd>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+unzip
+https://hub.docker.com/_/unzip
+
+License
+View license information<https://opensource.org/licenses/Info-ZIP> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's unzip/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/unzip>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+vim
+https://hub.docker.com/_/vim
+
+License
+View license information<https://opensource.org/licenses/Vim> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's vim/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/vim>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
+
+wget
+https://hub.docker.com/_/wget
+
+License
+View license information<https://opensource.org/licenses/GPL-3.0> for the 
+software contained in this image.
+
+As with all Docker images, these likely also contain other software which may 
+be under other licenses (such as Bash, etc from the base distribution, along
+with any direct or indirect dependencies of the primary software being contained).
+
+Some additional license information which was able to be auto-detected might be 
+found in the repo-info repository's wget/ directory
+<https://github.com/docker-library/repo-info/tree/master/repos/wget>.
+
+As for any pre-built image usage, it is the image user's responsibility to ensure 
+that any use of this image complies with any relevant licenses for all software 
+contained within.
+
+---------------------------------------------------------
