@@ -2,311 +2,257 @@ NOTICES AND INFORMATION
 Do Not Translate or Localize
 
 This software incorporates material from third parties.
-Microsoft makes certain open source code available at https://3rdpartysource.microsoft.com,
-or you may send a check or money order for US $5.00, including the product name,
-the open source component name, platform, and version number, to:
-
-Source Code Compliance Team
-Microsoft Corporation
-One Microsoft Way
-Redmond, WA 98052
-USA
-
-Notwithstanding any other terms, you may reverse engineer this software to the extent
-required to debug changes to any libraries licensed under the GNU Lesser General Public License.
 
 ---------------------------------------------------------
 
-ubuntu
-https://hub.docker.com/_/ubuntu
+Ubuntu 22.04
+--------------------------------------
+License: GPL-3.0 or later (for Ubuntu)
 
-License
-View license information<https://www.ubuntu.com/legal/terms-and-policies> for the 
-software contained in this image.
+Full License Text:
+The Ubuntu operating system is a free and open-source software distribution based on Debian, and as such, it adheres to the GPL-3.0 license for parts of its source code.
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
-
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's ubuntu/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/ubuntu>.
-
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+GPL-3.0 License Text:
+https://www.gnu.org/licenses/gpl-3.0.html
 
 ---------------------------------------------------------
 
 curl
-https://hub.docker.com/_/curl
+--------------------------------------
+License: MIT License
 
-License
-View license information<https://github.com/curl/curl/blob/master/LICENSE> for the 
-software contained in this image.
+Full License Text:
+MIT License
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1996 - 2023, Daniel Stenberg
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's curl/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/curl>.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------------------------------
 
 dig (dnsutils)
-https://hub.docker.com/_/dnsutils
+--------------------------------------
+License: ISC License
 
-License
-View license information<https://opensource.org/licenses/BSD-3-Clause> for the 
-software contained in this image.
+Full License Text:
+ISC License
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1989-1999 Internet Systems Consortium, Inc. ("ISC")
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's dnsutils/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/dnsutils>.
+Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------------------------------
 
 git
-https://hub.docker.com/_/git
+--------------------------------------
+License: GPL-2.0 License
 
-License
-View license information<https://git-scm.com/about/free-software> for the 
-software contained in this image.
+Full License Text:
+GNU General Public License v2.0
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 2005-2023 The Git Development Community
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's git/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/git>.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
 ---------------------------------------------------------
 
 jq
-https://hub.docker.com/_/jq
+--------------------------------------
+License: MIT License
 
-License
-View license information<https://github.com/stedolan/jq/blob/master/COPYING> for the 
-software contained in this image.
+Full License Text:
+MIT License
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 2011-2023 jq contributors
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's jq/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/jq>.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------------------------------
 
 lsof
-https://hub.docker.com/_/lsof
+--------------------------------------
+License: BSD-2 License
 
-License
-View license information<https://opensource.org/licenses/MIT> for the 
-software contained in this image.
+Full License Text:
+BSD 2-Clause License
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1993-2023, Victor A. Abell. All rights reserved.
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's lsof/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/lsof>.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+1. Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------------------------------
 
 netstat (net-tools)
-https://hub.docker.com/_/net-tools
+--------------------------------------
+License: GPL-2.0 License
 
-License
-View license information<https://opensource.org/licenses/GPL-2.0> for the 
-software contained in this image.
+Full License Text:
+GNU General Public License v2.0
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1992-2002 The net-tools developers
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's net-tools/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/net-tools>.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
 ---------------------------------------------------------
 
 ping (iputils-ping)
-https://hub.docker.com/_/iputils
+--------------------------------------
+License: GPL-2.0 License
 
-License
-View license information<https://github.com/iputils/iputils/blob/master/LICENSE> for the 
-software contained in this image.
+Full License Text:
+GNU General Public License v2.0
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1998-2023 The iputils contributors
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's iputils/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/iputils>.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
 ---------------------------------------------------------
 
 ssh
-https://hub.docker.com/_/ssh
+--------------------------------------
+License: BSD-style license
 
-License
-View license information<https://opensource.org/licenses/MIT> for the 
-software contained in this image.
+Full License Text:
+BSD 3-Clause License
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1995-2023 The OpenSSH developers
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's ssh/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/ssh>.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+1. Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------------------------------
 
 sudo
-https://hub.docker.com/_/sudo
+--------------------------------------
+License: GPL-2.0 License
 
-License
-View license information<https://www.sudo.ws/> for the 
-software contained in this image.
+Full License Text:
+GNU General Public License v2.0
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1993-2023 The Sudo Development Team
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's sudo/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/sudo>.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
 ---------------------------------------------------------
 
 systemd
-https://hub.docker.com/_/systemd
+--------------------------------------
+License: LGPL-2.1 License
 
-License
-View license information<https://github.com/systemd/systemd/blob/main/LICENSE> for the 
-software contained in this image.
+Full License Text:
+GNU Lesser General Public License v2.1
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 2010-2023 The systemd project contributors
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's systemd/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/systemd>.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+
+Full License: https://www.gnu.org/licenses/lgpl-2.1.txt
 
 ---------------------------------------------------------
 
 unzip
-https://hub.docker.com/_/unzip
+--------------------------------------
+License: Info-ZIP License
 
-License
-View license information<https://opensource.org/licenses/Info-ZIP> for the 
-software contained in this image.
+Full License Text:
+Info-ZIP License
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1990-2023 Info-ZIP group
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's unzip/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/unzip>.
+Permission is granted to use, copy, modify, distribute, and/or sell copies of this software and its documentation for any purpose, provided that the following conditions are met:
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+1. Redistributions of source code must retain the above copyright notice and this list of conditions.
+2. Redistributions in binary form must reproduce the above copyright notice and this list of conditions in the documentation or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------------------------------
 
 vim
-https://hub.docker.com/_/vim
+--------------------------------------
+License: Vim License (a mix of licenses including the GPL-2.0)
 
-License
-View license information<https://opensource.org/licenses/Vim> for the 
-software contained in this image.
+Full License Text:
+Vim License
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 1991-2023 Bram Moolenaar and contributors
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's vim/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/vim>.
-
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+The distribution is under a combination of the Vim license and the GNU General Public License version 2 (GPL-2.0). Please see the file `LICENSE` in the Vim distribution for full details.
 
 ---------------------------------------------------------
 
 wget
-https://hub.docker.com/_/wget
+--------------------------------------
+License: GPL-3.0 License
 
-License
-View license information<https://opensource.org/licenses/GPL-3.0> for the 
-software contained in this image.
+Full License Text:
+GNU General Public License v3.0
 
-As with all Docker images, these likely also contain other software which may 
-be under other licenses (such as Bash, etc from the base distribution, along
-with any direct or indirect dependencies of the primary software being contained).
+Copyright (c) 2000-2023 The Wget developers
 
-Some additional license information which was able to be auto-detected might be 
-found in the repo-info repository's wget/ directory
-<https://github.com/docker-library/repo-info/tree/master/repos/wget>.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
-As for any pre-built image usage, it is the image user's responsibility to ensure 
-that any use of this image complies with any relevant licenses for all software 
-contained within.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Full License: https://www.gnu.org/licenses/gpl-3.0.txt
 
 ---------------------------------------------------------
