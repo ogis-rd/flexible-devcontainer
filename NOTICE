@@ -17,25 +17,20 @@ Third-party libraries used in this project:
 ---------------------------------------------------------
 
 Ubuntu 22.04
---------------------------------------
-License: GPL-3.0 or later (for Ubuntu)
+---------------------------------------------------------
 
-Full License Text:
-The Ubuntu operating system is a free and open-source software distribution based on Debian, and as such, it adheres to the GPL-3.0 license for parts of its source code.
-
-GPL-3.0 License Text:
-https://www.gnu.org/licenses/gpl-3.0.html
+https://ubuntu.com/legal/intellectual-property-policy
 
 ---------------------------------------------------------
 
 curl
---------------------------------------
+---------------------------------------------------------
 License: MIT License
 
 Full License Text:
 MIT License
 
-Copyright (c) 1996 - 2023, Daniel Stenberg
+Copyright (c) 1996 - 2025, Daniel Stenberg, daniel@haxx.se, and many contributors, see the THANKS file.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,45 +52,34 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ---------------------------------------------------------
 
 dig (dnsutils)
---------------------------------------
-License: ISC License
+---------------------------------------------------------
+MPL 2.0 license
 
-Full License Text:
-ISC License
-
-Copyright (c) 1989-1999 Internet Systems Consortium, Inc. ("ISC")
-
-Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+Full License: https://gitlab.isc.org/isc-projects/bind9/-/blob/main/LICENSES/MPL-2.0.txt?ref_type=heads
 ---------------------------------------------------------
 
 git
---------------------------------------
+---------------------------------------------------------
 License: GPL-2.0 License
 
 Full License Text:
 GNU General Public License v2.0
 
-Copyright (c) 2005-2023 The Git Development Community
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+Full License: https://opensource.org/license/GPL-2.0
 
 ---------------------------------------------------------
 
 jq
---------------------------------------
+---------------------------------------------------------
 License: MIT License
 
 Full License Text:
 MIT License
 
-Copyright (c) 2011-2023 jq contributors
+jq is copyright (C) 2012 Stephen Dolan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -117,25 +101,14 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ---------------------------------------------------------
 
 lsof
---------------------------------------
-License: BSD-2 License
+---------------------------------------------------------
 
-Full License Text:
-BSD 2-Clause License
-
-Copyright (c) 1993-2023, Victor A. Abell. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Full License: https://github.com/lsof-org/lsof/blob/master/COPYING
 
 ---------------------------------------------------------
 
 netstat (net-tools)
---------------------------------------
+---------------------------------------------------------
 License: GPL-2.0 License
 
 Full License Text:
@@ -147,64 +120,59 @@ This program is free software; you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+Full License: https://github.com/ecki/net-tools/blob/master/COPYING
 
 ---------------------------------------------------------
 
 ping (iputils-ping)
---------------------------------------
-License: GPL-2.0 License
+---------------------------------------------------------
+License: BSD-3-Clause
 
 Full License Text:
-GNU General Public License v2.0
+arping: GPL-2.0-or-later
+clockdiff: BSD-3-Clause
+ping: BSD-3-Clause
+tracepath: GPL-2.0-or-later
 
-Copyright (c) 1998-2023 The iputils contributors
+Files containing license texts are available in Documentation directory.
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+Full License: https://github.com/iputils/iputils/blob/master/LICENSE
 
 ---------------------------------------------------------
 
 ssh
---------------------------------------
-License: BSD-style license
+---------------------------------------------------------
+License: OpenBSD License
 
-Full License Text:
-BSD 3-Clause License
-
-Copyright (c) 1995-2023 The OpenSSH developers
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Full License: https://github.com/openssh/openssh-portable?tab=License-1-ov-file
 
 ---------------------------------------------------------
 
 sudo
---------------------------------------
-License: GPL-2.0 License
+---------------------------------------------------------
+License: ISC
 
 Full License Text:
-GNU General Public License v2.0
+ISC License
 
-Copyright (c) 1993-2023 The Sudo Development Team
+Permission to use, copy, modify, and/or distribute this software for
+ any purpose with or without fee is hereby granted, provided that the
+ above copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-Full License: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+ Full License: https://www.sudo.ws/about/license/
 
 ---------------------------------------------------------
 
 systemd
---------------------------------------
+---------------------------------------------------------
 License: LGPL-2.1 License
 
 Full License Text:
@@ -221,38 +189,23 @@ Full License: https://www.gnu.org/licenses/lgpl-2.1.txt
 ---------------------------------------------------------
 
 unzip
---------------------------------------
+---------------------------------------------------------
 License: Info-ZIP License
 
-Full License Text:
-Info-ZIP License
-
-Copyright (c) 1990-2023 Info-ZIP group
-
-Permission is granted to use, copy, modify, distribute, and/or sell copies of this software and its documentation for any purpose, provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice and this list of conditions.
-2. Redistributions in binary form must reproduce the above copyright notice and this list of conditions in the documentation or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Full License: https://infozip.sourceforge.net/license.html
 
 ---------------------------------------------------------
 
 vim
---------------------------------------
+---------------------------------------------------------
 License: Vim License (a mix of licenses including the GPL-2.0)
 
-Full License Text:
-Vim License
-
-Copyright (c) 1991-2023 Bram Moolenaar and contributors
-
-The distribution is under a combination of the Vim license and the GNU General Public License version 2 (GPL-2.0). Please see the file `LICENSE` in the Vim distribution for full details.
+Full License: https://github.com/vim/vim/blob/master/LICENSE
 
 ---------------------------------------------------------
 
 wget
---------------------------------------
+---------------------------------------------------------
 License: GPL-3.0 License
 
 Full License Text:
@@ -267,12 +220,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 Full License: https://www.gnu.org/licenses/gpl-3.0.txt
 
 ---------------------------------------------------------
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
