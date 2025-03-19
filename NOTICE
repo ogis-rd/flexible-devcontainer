@@ -19,6 +19,7 @@ Third-party libraries used in this project:
 Ubuntu 22.04
 ---------------------------------------------------------
 
+Full License Text:
 https://ubuntu.com/legal/intellectual-property-policy
 
 ---------------------------------------------------------
@@ -142,7 +143,7 @@ Full License: https://github.com/iputils/iputils/blob/master/LICENSE
 
 ssh
 ---------------------------------------------------------
-License: OpenBSD License
+License: BSD License
 
 Full License: https://github.com/openssh/openssh-portable?tab=License-1-ov-file
 
