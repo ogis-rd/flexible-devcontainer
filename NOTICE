@@ -24,6 +24,30 @@ https://ubuntu.com/legal/intellectual-property-policy
 
 ---------------------------------------------------------
 
+Docker CLI
+---------------------------------------------------------
+License: Apache-2.0 license
+
+Full License: https://github.com/docker/cli?tab=License-1-ov-file
+
+---------------------------------------------------------
+
+Docker Compose
+---------------------------------------------------------
+License: Apache-2.0 license
+
+Full License: https://github.com/docker/compose?tab=License-1-ov-file
+
+---------------------------------------------------------
+
+Docker BuildKit
+---------------------------------------------------------
+License: Apache-2.0 license
+
+Full License: https://github.com/moby/buildkit?tab=Apache-2.0-1-ov-file
+
+---------------------------------------------------------
+
 curl
 ---------------------------------------------------------
 License: MIT License
