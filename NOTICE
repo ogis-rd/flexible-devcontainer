@@ -40,11 +40,11 @@ Full License: https://github.com/docker/compose?tab=License-1-ov-file
 
 ---------------------------------------------------------
 
-Docker BuildKit
+Docker buildx
 ---------------------------------------------------------
 License: Apache-2.0 license
 
-Full License: https://github.com/moby/buildkit?tab=Apache-2.0-1-ov-file
+Full License: https://github.com/docker/buildx?tab=Apache-2.0-1-ov-file
 
 ---------------------------------------------------------
 
