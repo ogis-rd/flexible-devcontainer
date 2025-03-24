@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 # ライセンス設定
-LABEL org.opencontainers.image.licenses="Apache-2.0"
+COPY LICENSE /usr/share/doc/LICENSE
 
 # ロケール/タイムゾーン設定
 ENV TZ=Asia/Tokyo
