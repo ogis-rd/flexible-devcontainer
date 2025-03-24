@@ -1,5 +1,8 @@
 FROM ubuntu:22.04
 
+# ライセンス設定
+LABEL org.opencontainers.image.licenses="Apache-2.0"
+
 # ロケール/タイムゾーン設定
 ENV TZ=Asia/Tokyo
 ENV LANG=ja_JP.UTF-8
