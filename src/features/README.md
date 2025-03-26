@@ -17,6 +17,16 @@ features配下にsrc、testフォルダを配置する構成はdevcontainer-cli�
   ```
 
 - テストで利用するベースイメージのビルド  
+  証明書が必要なローカル環境ではビルド前に以下のコードを追加する  
+  ```
+  RUN apt-get update \
+    && apt-get install -y ca-certificates
+
+  COPY *.crt /usr/local/share/ca-certificates/
+  RUN update-ca-certificates
+  ENV NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/cacert.crt
+  ```
+  ビルドの実行(/.devcontainer/Dockerfile)
   ```
   docker build --build-arg USERNAME=test -t ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer:test .
   ```

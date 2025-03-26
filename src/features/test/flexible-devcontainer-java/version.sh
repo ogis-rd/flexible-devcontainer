@@ -8,7 +8,7 @@ source dev-container-features-test-lib
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
 check "check installed version" bash -c "java --version"
-check "check installed version" bash -c "java --version | grep -F 'Temurin-11.0.21'"
+check "check installed version" bash -c "java --version | grep -F 'Temurin-11.0.26'"
 
 # $_REMOTE_USER_HOME is not defined in the test environment, so we need to use /root instead
 check "check java home env" bash -c "cat /root/.bashrc | grep -F 'export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")'"

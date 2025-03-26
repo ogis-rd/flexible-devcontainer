@@ -13,21 +13,19 @@ jobs:
     permissions:
       contents: read
       packages: write
+    strategy:
+      matrix:
+        ubuntu-version: ${{ vars.UBUNTU_VERSIONS != '' && fromJSON(vars.UBUNTU_VERSIONS) || [22.04, 24.04] }}
     steps:
       - uses: actions/checkout@v4
-      - name: Get Ubuntu version
-        id: ubuntu_version
-        run: |
-          UBUNTU_VERSION=$(grep -m 1 '^FROM' src/base-image/Dockerfile | awk -F ':' '{print $2}')
-          echo "UBUNTU_VERSION=$UBUNTU_VERSION" >> $GITHUB_ENV
       - name: Extract metadata (tags, labels)
         id: extract_metadata
         uses: docker/metadata-action@v4
         with:
           images: ghcr.io/ogis-rd/flexible-devcontainer/flexible-devcontainer
           tags: |
-            type=semver, pattern=Ubuntu${{ env.UBUNTU_VERSION }}-{{version}}
-            type=raw, value=Ubuntu${{ env.UBUNTU_VERSION }}-latest
+            type=semver, pattern=Ubuntu${{ matrix.ubuntu-version }}-{{version}}
+            type=raw, value=Ubuntu${{ matrix.ubuntu-version }}-latest
           labels: |
             org.opencontainers.image.title=Flexible Dev Container
             org.opencontainers.image.description=Flexible Dev Container
@@ -51,3 +49,5 @@ jobs:
           labels: ${{ steps.extract_metadata.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha, mode=max
+          build-args: |
+            UBUNTU_VERSION=${{ matrix.ubuntu-version }}

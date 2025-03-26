@@ -1,7 +1,14 @@
-FROM ubuntu:22.04
+ARG UBUNTU_VERSION=24.04
+
+FROM ubuntu:${UBUNTU_VERSION}
 
 # ライセンス設定
 COPY LICENSE /usr/share/doc/flexible-devcontainer/LICENSE
+
+# 24.04を利用する場合にホストOSで利用しているユーザー・グループとコンテナで利用するユーザー・グループを一致させられるようにするため、コンテナにデフォルトで存在するubuntu(1000:1000)のユーザー・グループを削除
+# https://github.com/devcontainers/images/issues/1056
+# RUN if id "ubuntu" &>/dev/null; then userdel -r ubuntu; fi
+RUN if id "ubuntu" &>/dev/null; then userdel -r ubuntu || true; fi
 
 # ロケール/タイムゾーン設定
 ENV TZ=Asia/Tokyo

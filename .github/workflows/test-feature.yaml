@@ -13,6 +13,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ubuntu-version: ${{ vars.UBUNTU_VERSIONS != '' && fromJSON(vars.UBUNTU_VERSIONS) || [22.04, 24.04] }}
     steps:
       - uses: actions/checkout@v4
 
@@ -39,6 +42,7 @@ jobs:
           load: true
           build-args: |
             USERNAME=test
+            UBUNTU_VERSION=${{ matrix.ubuntu-version }}
 
       - name: Reset docker build context
         run: docker buildx use default
@@ -51,6 +55,9 @@ jobs:
 
   test-with-cert:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ubuntu-version: ${{ vars.UBUNTU_VERSIONS != '' && fromJSON(vars.UBUNTU_VERSIONS) || [22.04, 24.04] }}
     steps:
       - uses: actions/checkout@v4
 
@@ -84,6 +91,7 @@ jobs:
           load: true
           build-args: |
             USERNAME=test
+            UBUNTU_VERSION=${{ matrix.ubuntu-version }}
 
       - name: Reset docker build context
         run: docker buildx use default
